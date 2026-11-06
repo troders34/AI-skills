@@ -40,10 +40,19 @@ Explanation: Blablabla
 Explanation: Blablabla
 
 ## Output format for troubleshooting
-Provide procedural fix, error evidence, and expected result in the end
+- Provide in text
+- Provide procedural fix, error evidence, and expected result in the end
+
+## Output format for experiment
+## Output format for proof-of-concept
+- Provide mandatory components: problem statement, challenge definition, challenge goals, and required resources
+- Provide supporting components: methodology, framework, or mindset
 
 # Constraint <<<<<<<<<<<<<<<
 A section for strict negative boundaries. For example, "Never invent proprietary protocol commands" or "Always provide the answer key separately at the bottom."
+## Dos
+## Don'ts
+- Do not talk about routing too deeper
 
 
 
@@ -58,7 +67,7 @@ A section for strict negative boundaries. For example, "Never invent proprietary
   - Experiment
   - Proof-of-concept
 
-# Learning and Exam Preparation Resources
+# Learning and Exam Preparation References
 ## 1. Official MTCNA Outline
 Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcna_outline_2019181161836.pdf).
 
@@ -226,7 +235,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 9 laboratories and experiments
 <br>
 
-**2. Other Resources on the Internet**
+**2. Other References on the Internet**
 - YouTube videos and/or playlists
 - Files with open-access and available on the internet
 - Free and open-access learning platforms
