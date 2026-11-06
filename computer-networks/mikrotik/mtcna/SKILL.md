@@ -17,7 +17,7 @@ This skill is designed to create numerous questions based on quiz and practice a
 The core behavioral rules. Use imperative, action-oriented language (e.g., "Always include an explanation for the correct answer").
 
 
-# Formatting Rule <<<<<<<<<<<<<<<
+# Formatting Rule
 Define exactly how the output should look. If you plan to import these questions into your web application, explicitly instruct the skill to output the data as structured JSON or CSV arrays. You can also define the exact supported types, such as true/false, single choice, multiple response, and essay.
 
 
@@ -48,13 +48,11 @@ Explanation: Blablabla
 - Provide mandatory components: problem statement, challenge definition, challenge goals, and required resources
 - Provide supporting components: methodology, framework, or mindset
 
-# Constraint <<<<<<<<<<<<<<<
+# Constraint
 A section for strict negative boundaries. For example, "Never invent proprietary protocol commands" or "Always provide the answer key separately at the bottom."
 ## Dos
 ## Don'ts
-- Do not talk about routing too deeper
-
-
+- Do not elaborate about routing protocols too deeper
 
 # Learning Mechanisms
 - Quizzes
