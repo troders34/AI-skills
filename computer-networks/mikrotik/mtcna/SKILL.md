@@ -1,16 +1,65 @@
+---
+name: networks-mtcna-learning-generator
+description: Generate computer networks challenges: quizzes and labs specifically focused in MikroTik Certified Network (MTCNA).
+---
+
+
+
+# Summary
+This skill is designed to create numerous questions based on quiz and practice about computer networking focusing on MikroTik Certified Network Associate (MTCNA). This focus is chosen with consideration to build comprehensive and structured learning flow.
+
+# When to Use
+- User mentions exactly: "mtcna learning creation"
+- User implies: "computer networks learning flow"
+- User implies: "computer network learning creation
+
+# Instruction
+The core behavioral rules. Use imperative, action-oriented language (e.g., "Always include an explanation for the correct answer").
+
+
+# Formatting Rule <<<<<<<<<<<<<<<
+Define exactly how the output should look. If you plan to import these questions into your web application, explicitly instruct the skill to output the data as structured JSON or CSV arrays. You can also define the exact supported types, such as true/false, single choice, multiple response, and essay.
+
+
+## Output format for multiple-choice single-answer quiz
+Correct answer: B
+<br>
+Explanation: Blablabla
+
+## Output format for multiple-choice multiple-answer quiz
+Correct answer(s): C,D,B
+<br>
+Explanation: Blablabla
+
+## Output format for true-or-false quiz
+Correct answer: True
+<br>
+Explanation: Blablabla
+
+## Output format for essay
+Explanation: Blablabla
+
+## Output format for troubleshooting
+Provide procedural fix, error evidence, and expected result in the end
+
+# Constraint <<<<<<<<<<<<<<<
+A section for strict negative boundaries. For example, "Never invent proprietary protocol commands" or "Always provide the answer key separately at the bottom."
+
+
+
 # Learning Mechanisms
-- Quiz
+- Quizzes
   - Multiple-choice single-answer
   - Multiple-choice multiple-answers
   - True-or-false
   - Essay
-- Learn by doing
+- Practice
   - Troubleshooting
   - Experiment
   - Proof-of-concept
 
 # Learning and Exam Preparation Resources
-## Official MTCNA Outline
+## 1. Official MTCNA Outline
 Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcna_outline_2019181161836.pdf).
 
 **Module 1: Introduction**
@@ -175,3 +224,9 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
   - Readable configuration (item comments and names)
   - Network diagrams
 - Module 9 laboratories and experiments
+<br>
+
+**2. Other Resources on the Internet**
+- YouTube videos and/or playlists
+- Files with open-access and available on the internet
+- Free and open-access learning platforms
