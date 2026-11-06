@@ -1,8 +1,8 @@
 # Learning and Exam Preparation References
-## 1. Official MTCNA Outline
+## Official MTCNA Outline Modules
 Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcna_outline_2019181161836.pdf).
 
-**Module 1: Introduction**
+**1. Introduction**
 - About MikroTik
   - What is RouterOS
   - What is RouterBOARD
@@ -42,7 +42,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
   - https://mum.mikrotik.com/
 <br>
 
-**Module 2: DHCP**
+**2. DHCP**
 - DHCP server and client
   - DHCP client
   - DHCP server setup
@@ -55,7 +55,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 2 laboratories and experiments
 <br>
 
-**Module 3: Bridging**
+**3. Bridging**
 - Bridging overview
   - Bridge concepts and settings
   - Creating bridges
@@ -65,7 +65,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 3 laboratories and experiments
 <br>
 
-**Module 4: Routing**
+**4. Routing**
 - Routing overview
   - Routing concepts
   - Route flags
@@ -77,7 +77,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 4 laboratories and experiments
 <br>
 
-**Module 5: Wireless**
+**5. Wireless**
 - 802.11a/b/g/n/ac/ax concepts
   - Frequencies (bands, channels) data-rates / chains (tx power, rx sensitivity, country regulations)
 - Setup a simple wireless link
@@ -96,7 +96,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 5 laboratories and experiments
 <br>
 
-**Module 6: Firewall**
+**6. Firewall**
 - Firewall principles
   - Connection tracking and states
   - Structure, chains and actions
@@ -113,7 +113,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 6 laboratories and experiments
 <br>
 
-**Module 7: QoS**
+**7. QoS**
 - Simple Queue
   - Target
   - Destinations
@@ -125,7 +125,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 7 laboratories and experiments
 <br>
 
-**Module 8: Tunnels**
+**8. Tunnels**
 - PPP settings
   - PPP profile
   - PPP secret
@@ -145,7 +145,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 8 laboratories and experiments
 <br>
 
-**Module 9: Misc**
+**9. Misc**
 - RouterOS tools
   - E-mail
   - Netwatch
@@ -166,7 +166,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Module 9 laboratories and experiments
 <br>
 
-**2. Other References on the Internet**
+## Other References on the Internet
 - YouTube videos and/or playlists
 - Files with open-access and available on the internet
 - Free and open-access learning platforms
