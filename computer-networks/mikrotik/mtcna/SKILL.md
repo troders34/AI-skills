@@ -10,38 +10,35 @@ This skill is designed to create numerous questions based on quiz and practice a
 
 # When to Use
 - User mentions exactly: "mtcna learning creation"
-- User implies: "computer networks learning flow"
-- User implies: "computer network learning creation
+- User implies: "computer networks learning flow" OR "computer network learning creation"
 
 # Instruction
-The core behavioral rules. Use imperative, action-oriented language (e.g., "Always include an explanation for the correct answer").
+When generating content, follow these strict behavioral rules:
+1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic dynamic routing protocols, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling.
+2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology (e.g., Interface Templates for OSPF, no separate "Networks" tab).
+3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
 
+## Formatting Rule
+### 1. Quizzes
+Provide the questions and choices first. At the bottom of the output, provide the answers using these exact formats:
+- **Multiple-Choice Single-Answer:** `Correct answer: [Letter]` <br> `Explanation: [Reasoning]`
+- **Multiple Answer:** `Correct answer(s): [Letters, comma-separated]` <br> `Explanation: [Reasoning]`
+- **True/False:** `Correct answer: [True/False]` <br> `Explanation: [Reasoning]`
+- **Essay:** `Expected Answer Criteria: [Key points that must be mentioned]`
 
-# Formatting Rule
-Define exactly how the output should look. If you plan to import these questions into your web application, explicitly instruct the skill to output the data as structured JSON or CSV arrays. You can also define the exact supported types, such as true/false, single choice, multiple response, and essay.
+### 2. Practice: Troubleshooting / Use-case
+- **Provide in text:** Describe the network layout and the exact symptom the "client" is experiencing.
+- **At the bottom provide:**
+  - **Procedural fix:** Step-by-step CLI or Winbox fix.
+  - **Error evidence:** What command shows the failure (e.g., `/ping`, `/routing ospf neighbor print`).
+  - **Expected result:** How to verify it works.
 
+ ### 3. Practice: Experiment
+ The life-cycle is: ideation (objective or hypotheses), validation, and refinements
 
-## Output format for multiple-choice single-answer quiz
-Correct answer: B
-<br>
-Explanation: Blablabla
-
-## Output format for multiple-choice multiple-answer quiz
-Correct answer(s): C,D,B
-<br>
-Explanation: Blablabla
-
-## Output format for true-or-false quiz
-Correct answer: True
-<br>
-Explanation: Blablabla
-
-## Output format for essay
-Explanation: Blablabla
-
-## Output format for troubleshooting
-- Provide in text
-- Provide procedural fix, error evidence, and expected result in the end
+### 4. Practice: Proof-of-concept / Experiment
+  - **Mandatory components:** Problem statement, Challenge definition, Challenge goals, and Required resources (e.g., number of CHR nodes, subnets).
+  - **Supporting components:** Methodology, framework, or mindset required to solve it.
 
 ## Output format for experiment
 ## Output format for proof-of-concept
