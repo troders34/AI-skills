@@ -6,24 +6,33 @@ description: Generates computer networking quizzes, practice tests, and lab scen
 # Summary
 This skill is designed to generate structured quizzes and practical lab scenarios to build a comprehensive learning flow for the MikroTik Certified Network Associate (MTCNA) certification.
 
-# When to Use
-Trigger this skill whenever the user:
-- Asks for MTCNA practice questions or quizzes.
-- Requests a lab topology, troubleshooting scenario, or proof-of-concept setup for RouterOS.
-- Asks to test their knowledge on a specific networking topic (e.g., DHCP, OSPF, Firewalls).
-- Mentions on chat exactly: "mtcna learning creation" or "mtcna learning flow"
-
 # Instructions
 When generating content, follow these strict behavioral rules:
 1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic OSPF, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling. Use the provided MTCNA outline in the references folder as the knowledge boundary.
 2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology (e.g., Interface Templates for OSPF, no separate "Networks" tab).
 3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
 
+## When to Use
+Trigger this skill whenever the user:
+- Asks for MTCNA practice questions or quizzes.
+- Requests a lab topology, troubleshooting scenario, or proof-of-concept setup for RouterOS.
+- Asks to test their knowledge on a specific networking topic (e.g., DHCP, OSPF, Firewalls).
+- Mentions on chat exactly: "mtcna learning creation" or "mtcna learning flow"
+
+## Required Input Parameters
+Before generating any quizzes or labs, you MUST identify the following four parameters from the user's prompt:
+- **Type:** Quizzes OR Practice
+- **Subtype:** Multiple-Choice Single-Answer / Multiple-Answer / True or False / Essay / Troubleshooting / Use-case / Experiment / Proof-of-Concept
+- **Quantity:** Number of items (e.g., 1, 3, 5, 10)
+- **Module:** Specific MTCNA module(s) to cover (Modules 1 through 9)
+
+**Gatekeeper Rule:** If the user asks for practice but does not provide ALL FOUR of these parameters, **STOP**. Do not generate the content. Instead, reply with a short clarifying question asking them to specify the missing parameters.
+
 ## Formatting Rule
 ### 1. Quizzes
 Provide the questions first and then follow by answer options (for multiple-choice and true-and-false types). At the bottom of the output, provide the answers using these exact formats:
 - **Multiple-Choice Single-Answer:** `Correct answer: [Letter]` <br> `Explanation: [Reasoning]`
-- **Multiple Answer:** `Correct answer(s): [Letters, comma-separated]` <br> `Explanation: [Reasoning]`
+- **Multiple-Choice Multiple-Answer:** `Correct answer(s): [Letters, comma-separated]` <br> `Explanation: [Reasoning]`
 - **True/False:** `Correct answer: [True/False]` <br> `Explanation: [Reasoning]`
 - **Essay:** `Expected Answer Criteria: [Key points that must be mentioned]`
 
@@ -43,7 +52,7 @@ Provide the questions first and then follow by answer options (for multiple-choi
    - Refinement: error handling and adjustments based on validation outcomes.
    - Resource deprovisioning and artifact retention.
 
-# Constraints (Don'ts)
+## Constraints (Don'ts)
 - **NEVER** include advanced routing topics like BGP, MPLS, or complex OSPF multi-area redistribution. Those are MTCRE level.
 - **NEVER** invent proprietary protocol commands that do not exist in RouterOS.
 - **NEVER** provide the answers inline with the questions. The user must be able to read the questions without seeing the answers.
