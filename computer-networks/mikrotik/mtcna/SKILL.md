@@ -15,7 +15,7 @@ Trigger this skill whenever the user:
 
 # Instructions
 When generating content, follow these strict behavioral rules:
-1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic OSPF, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling.
+1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic OSPF, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling. Use the provided MTCNA outline in the references folder as the knowledge boundary.
 2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology (e.g., Interface Templates for OSPF, no separate "Networks" tab).
 3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
 
