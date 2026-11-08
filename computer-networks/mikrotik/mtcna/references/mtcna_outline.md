@@ -4,8 +4,7 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 
 **1. Introduction**
 - About MikroTik
-  - What is RouterOS
-  - What is RouterBOARD
+  - RouterOS and RouterBOARD definition
   - History and founders of MikroTik
 - First time accessing the router
   - WinBox and MAC-WinBox
@@ -52,7 +51,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Address Resolution Protocol (ARP)
   - ARP modes
   - RouterOS ARP table
-- Module 2 laboratories and experiments
 <br>
 
 **3. Bridging**
@@ -62,7 +60,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
   - Adding ports to bridges
 - Bridge wireless networks
   - Station bridge
-- Module 3 laboratories and experiments
 <br>
 
 **4. Routing**
@@ -74,7 +71,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
   - Setting default route
   - Managing dynamic routes
   - Implementing static routing in a simple network
-- Module 4 laboratories and experiments
 <br>
 
 **5. Wireless**
@@ -93,7 +89,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Monitoring tools
   - Snooper
   - Registration table
-- Module 5 laboratories and experiments
 <br>
 
 **6. Firewall**
@@ -110,7 +105,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Destination NAT
   - dst-nat and redirect actions
 - FastTrack
-- Module 6 laboratories and experiments
 <br>
 
 **7. QoS**
@@ -122,7 +116,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - One simple queue for the whole network
   - pcq-rate configuration
   - pcq-limit configuration
-- Module 7 laboratories and experiments
 <br>
 
 **8. Tunnels**
@@ -142,7 +135,6 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
 - Secure remote networks communication
   - PPTP client and PPTP server (quick set)
   - SSTP client
-- Module 8 laboratories and experiments
 <br>
 
 **9. Misc**
@@ -163,10 +155,4 @@ Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf
   - System logs, enabling debug logs
   - Readable configuration (item comments and names)
   - Network diagrams
-- Module 9 laboratories and experiments
 <br>
-
-## Other References on the Internet
-- YouTube videos and/or playlists
-- Files with open-access and available on the internet
-- Free and open-access learning platforms
