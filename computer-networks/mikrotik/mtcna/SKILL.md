@@ -1,5 +1,5 @@
 ---
-name: networks-mtcna-learning-generator
+name: mtcna-learning-generator
 description: Generates computer networking quizzes, practice tests, and lab scenarios specifically focused on the MikroTik Certified Network Associate (MTCNA) curriculum. Use when the user asks for networks questions, MTCNA practice, or RouterOS lab challenges.
 ---
 
