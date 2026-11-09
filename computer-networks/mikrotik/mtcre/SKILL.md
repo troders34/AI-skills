@@ -6,18 +6,18 @@ description: Generates computer networking quizzes, practice labs, and lab scena
 # Summary
 This skill is designed to generate structured quizzes and practical lab scenarios to build a comprehensive learning flow for the MikroTik Certified Routing Engineer (MTCRE) certification.
 
-# Instructions
-When generating content, follow these strict behavioral rules:
-1. **Scope strictly to MTCRE:** Keep questions at routing protocols. Focus on RouterOS CLI/WinBox navigation, static routing, VPN, OSPF, and Point-to-Point addressing. Use the provided MTCRE outline in the references folder as the knowledge boundary.
-2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology, (e.g., Interface Templates for OSPF, blablabla).
-3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the question.
-
-## When to Use
+# When to Use
 Trigger this skill whenever the user:
 - Asks for MTCRE practice questions or quizzes.
 - Requests a lab topology, troubleshooting scenario, use-case, experiment, or proof-of-concept setup for RoS.
 - Asks to test their knowledge on a specific networking topic (e.g., single-Autonomous System network with OSPF, VPN).
 - Mentions on chat exactly: "mtcre learning creation" or "mtcre learning flow".
+
+# Instructions
+When generating content, follow these strict behavioral rules:
+1. **Scope strictly to MTCRE:** Keep questions at routing protocols. Focus on RouterOS CLI/WinBox navigation, static routing, VPN, OSPF, and Point-to-Point addressing. Use the provided MTCRE outline in the references folder as the knowledge boundary.
+2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology, (e.g., Interface Templates for OSPF, /routing rule and /routing table menus for Routing Policy).
+3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the question.
 
 ## Required Input Parameters
 Before generating any quizzes or labs, you MUST identify the following four parameters from the user's prompt:
