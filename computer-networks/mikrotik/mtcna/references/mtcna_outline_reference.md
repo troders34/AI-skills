@@ -1,4 +1,4 @@
-# Learning and Exam Preparation References
+# Learning and Exam Preparation Reference
 ## Official MTCNA Outline Modules
 Follow the official MTCNA outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcna_outline_2019181161836.pdf).
 
