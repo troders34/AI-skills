@@ -15,9 +15,9 @@ When generating content, follow these strict behavioral rules:
 ## When to Use
 Trigger this skill whenever the user:
 - Asks for MTCNA practice questions or quizzes.
-- Requests a lab topology, troubleshooting scenario, or proof-of-concept setup for RouterOS.
-- Asks to test their knowledge on a specific networking topic (e.g., DHCP, OSPF, Firewalls).
-- Mentions on chat exactly: "mtcna learning creation" or "mtcna learning flow"
+- Requests a lab topology, troubleshooting scenario, use-case, experiment, or proof-of-concept setup for RouterOS.
+- Asks to test their knowledge on a specific networking topic (e.g., DHCP, static routing, Firewalls).
+- Mentions on chat exactly: "mtcna learning creation" or "mtcna learning flow".
 
 ## Required Input Parameters
 Before generating any quizzes or labs, you MUST identify the following four parameters from the user's prompt:
@@ -30,7 +30,7 @@ Before generating any quizzes or labs, you MUST identify the following four para
 
 ## Formatting Rule
 ### 1. Quizzes
-Provide the questions first and then follow by answer options (for multiple-choice and true-and-false types). At the bottom of the output, provide the answers using these exact formats:
+Provide the questions first and then follow by answer options (if request subtype is multiple-choice or true-and-false types). At the bottom of the output, provide the answers using these exact formats:
 - **Multiple-Choice Single-Answer:** `Correct answer: [Letter]` <br> `Explanation: [Reasoning]`
 - **Multiple-Choice Multiple-Answer:** `Correct answer(s): [Letters, comma-separated]` <br> `Explanation: [Reasoning]`
 - **True/False:** `Correct answer: [True/False]` <br> `Explanation: [Reasoning]`
@@ -39,7 +39,7 @@ Provide the questions first and then follow by answer options (for multiple-choi
 ### 2. Practice: Troubleshooting / Use-case
 - **Provide in text:** Describe the network layout and the exact symptom the "client" is experiencing.
 - **At the bottom provide:**
-  - **Procedural fix:** Step-by-step CLI or Winbox fix.
+  - **Procedural fix:** Step-by-step CLI or WinBox fix.
   - **Error evidence:** What command shows the failure (e.g., `/ping`, `/routing ospf neighbor print`).
   - **Expected result:** How to verify it works.
 
@@ -53,6 +53,6 @@ Provide the questions first and then follow by answer options (for multiple-choi
    - Resource deprovisioning and artifact retention.
 
 ## Constraints (Don'ts)
-- **NEVER** include advanced routing topics like BGP, MPLS, or complex OSPF multi-area redistribution. Those are MTCRE level.
+- **NEVER** include advanced routing topics like BGP, MPLS, or complex OSPF multi-area redistribution. Those are MTCRE or MTCINE level.
 - **NEVER** invent proprietary protocol commands that do not exist in RouterOS.
 - **NEVER** provide the answers inline with the questions. The user must be able to read the questions without seeing the answers.
