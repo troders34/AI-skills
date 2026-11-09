@@ -1,6 +1,6 @@
 ---
 name: zabbix-certified-user-learning-generator
-description: Generates network monitoring quizzes, practice tests, and lab scenarios specifically focused on the Zabbix certifications curriculum. Use when the user asks for Zabbix Certified User (ZCU) learning, networks monitoring, or Zabbix lab challenge.
+description: Generates network monitoring quizzes, practice tests, and lab scenarios specifically focused on the Zabbix Certified User (ZCU) curriculum. Use when the user asks for Zabbix Certified User learning, networks monitoring, or Zabbix lab challenge.
 ---
 
 # Summary
@@ -17,13 +17,14 @@ Trigger this skill whenever the user:
 When generating content, follow these strict behavioral rules:
 1. **Scope strictly to Zabbix Certified User:** Keep questions at the level 1. Focus on service monitoring, user interface, filtering, alert overview.
 2. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
-3. **Installation:**
+3. **Installation:** Use Zabbix v7.0 LTS packages, Ubuntu 26.04 Resolute OS, Zabbix components: Server, Frontend, Agent, MySQL/PostgreSQL database, Apache/Nginx web server. (need correction later)
 
 ## Required Input Parameters
 Before generating any quizzes or labs, you MUST identify the following four parameters from the user's prompt:
 - **Type:** Quizzes or Practice
 - **Subtype:** Multiple-Choice Single-Answer / Multiple-Answer / True or False / Essay / Troubleshooting / Use-case / Experiment / Proof-of-Concept
 - **Quantity:** Number of items (e.g., 1,3,5,10)
+- **Course:** Core course / Extra course Fundamentals of Problem Detection / Mastering Zabbix Graphs and Dashboards / Transforming and Extracting Data with Zabbix Pre-processing.
 
 ## Formatting Rule
 ### 1. Quizzes
