@@ -1,6 +1,6 @@
 # Learning and Exam Preparation Reference
 ## Official MTCRE Outline Modules
-Follow the official MTCRE outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcre_outline_2019181161836.pdf).
+Follow the official MikroTik Certified Routing Engineer (MTCRE) outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcre_outline_2019181161836.pdf).
 
 **1. Static Routing**
 - More specific routes
