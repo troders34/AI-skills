@@ -1,6 +1,6 @@
 # Learning and Exam Preparation Reference
 ## Official MTCINE Outline Modules
-Follow the official MTCINE outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcine_outline_2020154114220.pdf).
+Follow the official MikroTik Certified Inter-Networking Engineer (MTCINE) outline on this [URL](https://i.mt.lv/cdn/training_pdf/mtcine_outline_2020154114220.pdf).
 
 **1. BGP**
 - Autonomous System (AS) and Border Gateway Protocol (BGP) definition
