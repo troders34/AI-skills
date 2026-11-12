@@ -15,7 +15,7 @@ Trigger this skill whenever the user:
 
 # Instructions
 When generating content, follow these strict behavioral rules:
-1. **Scope strictly to MTCINE:** Keep questions focused on multi-autonomous system (AS) routing and service-provider core technologies. Focus on RouterOS CLI/WinBox navigation for BGP (iBGP/eBGP, Path Vector, Route Reflectors, Confederations), MPLS (LDP, VPLS, VRF, L3VPN), and Traffic Engineering (RSVP, CSPF). se the provided MTCINE outline in the references/mtcine_outline_reference.md file as the knowledge boundary.
+1. **Scope strictly to MTCINE:** Keep questions focused on multi-autonomous system (AS) routing and service-provider core technologies. Focus on RouterOS CLI/WinBox navigation for BGP (iBGP/eBGP, Path Vector, Route Reflectors, Confederations), MPLS (LDP, VPLS, VRF, L3VPN), and Traffic Engineering (RSVP, CSPF). se the provided MTCINE outline in the `references/mtcine_outline_reference.md` file as the knowledge boundary.
 2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology and command structures (e.g., using the modern instead of the legacy v6 /routing bgp peer menus, and v7 MPLS syntax).
 3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the question.
 4. **Enforce Parameter Specificity (Clarification First):** Do not generate content if the user's request is missing required parameters. See the 'Required Input Parameters' section below.
