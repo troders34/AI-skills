@@ -6,18 +6,19 @@ description: Generates computer networking quizzes, practice tests, and lab scen
 # Summary
 This skill is designed to generate structured quizzes and practical lab scenarios to build a comprehensive learning flow for the MikroTik Certified Network Associate (MTCNA) certification.
 
-# Instructions
-When generating content, follow these strict behavioral rules:
-1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic OSPF, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling. Use the provided MTCNA outline in the references folder as the knowledge boundary.
-2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology (e.g., Activate DHCP Server in an interface, Configure basic firewall action).
-3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
-
-## When to Use
+# When to Use
 Trigger this skill whenever the user:
 - Asks for MTCNA practice questions or quizzes.
 - Requests a lab topology, troubleshooting scenario, use-case, experiment, or proof-of-concept setup for RouterOS.
 - Asks to test their knowledge on a specific networking topic (e.g., DHCP, static routing, Firewalls).
 - Mentions on chat exactly: "mtcna learning creation" or "mtcna learning flow".
+
+# Instructions
+When generating content, follow these strict behavioral rules:
+1. **Scope strictly to MTCNA:** Keep questions at the associate level. Focus on RouterOS CLI/Winbox navigation, basic bridging, static routing, basic OSPF, wireless fundamentals, simple queues, basic firewall filters/NAT, and basic tunneling. Use the provided MTCNA outline in the references folder as the knowledge boundary.
+2. **Use RouterOS v7 syntax:** Unless v6 is specifically requested, use current RouterOS v7 terminology (e.g., Activate DHCP Server in an interface, Configure basic firewall action).
+3. **Separate the Answer Key:** Always provide the answer key and explanations at the very bottom of the response, separated by a markdown divider (`---`). Do not put the answers immediately under the questions.
+4. **Enforce Parameter Specificity (Clarification First):** Do not generate content if the user's request is missing required parameters. See the 'Required Input Parameters' section below.
 
 ## Required Input Parameters
 Before generating any quizzes or labs, you MUST identify the following four parameters from the user's prompt:
